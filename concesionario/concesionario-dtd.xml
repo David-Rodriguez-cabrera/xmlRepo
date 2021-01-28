@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Almacen-Concesionario SYSTEM "concesionario.dtd">
+
+<Almacen-Concesionario>
+    <coche>
+        <codigo-coche> 1 </codigo-coche>
+        <marca> Seat </marca>
+        <modelo> Ibiza Quinta generacion 2018 </modelo>
+        <matricula> 1534 JXK </matricula>
+        <caballos> 95 </caballos>
+        <plazas> 5 </plazas>
+        <nPuertas> 4 </nPuertas>
+        </coche>
+    <coche>
+        <codigo-coche> 2 </codigo-coche>
+        <marca> Seat </marca>
+        <modelo> Ibiza Cuarta generacion 2017 </modelo>
+        <matricula> 1588 JXK </matricula>
+        <caballos> 80 </caballos>
+        <plazas> 5 </plazas>
+        <nPuertas> 4 </nPuertas>
+        </coche>
+    <coche>
+        <codigo-coche> 3 </codigo-coche>
+        <marca> Seat </marca>
+        <modelo> Ibiza Sexta generacion 2018 </modelo>
+        <matricula> 1600 JXK </matricula>
+        <caballos> 110 </caballos>
+        <plazas> 5 </plazas>
+        <nPuertas> 4 </nPuertas>
+        </coche>
+</Almacen-Concesionario>
+        
