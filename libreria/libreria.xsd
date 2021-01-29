@@ -8,9 +8,13 @@
                 <xs:element name="libro" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            
-                             <xs:element name="autores" type="xs:string"/>
-                             <xs:element name="autor" type="xs:string"/>
+                            <xs:element name="autores" maxOccurs="unbounded">
+                                <xs:complexType>
+                                <xs:sequence>
+                                 <xs:element name="autor" maxOccurs="unbounded">
+                                     <xs:complexType>
+                                        <xs:sequence>   
+                                
                             <xs:element name="apellido1" type="xs:string"/>
                             <xs:element name="apellido2" type="xs:string"/>
                             <xs:element name="nombre" type="xs:string"/>
@@ -19,9 +23,13 @@
                             <xs:element name="editorial" type="xs:string"/>
                             <xs:element name="fecha-publicacion" type="xs:date"/>
                             <xs:element name="ISBN" type="xs:string"/>
+                                            </xs:sequence> 
+                                        </xs:complexType>
+                                        </xs:element>
+                                        </xs:sequence> 
+                                  </xs:complexType>
+                                  </xs:element>  
                             </xs:sequence>
-                                    
-                            
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
