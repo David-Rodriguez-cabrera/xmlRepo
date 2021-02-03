@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT Sede-central (Sede)*>
+
+<!ELEMENT Sede (cliente)*>
+<!ATTLIST Sede
+    codigo CDATA #IMPLIED
+  >
+
+<!ELEMENT cliente (codigocliente|nViviendas|coste|Resumen|plazo)*>
+
+<!ELEMENT codigocliente (#PCDATA)>
+
+<!ELEMENT nViviendas (#PCDATA)>
+
+<!ELEMENT coste (#PCDATA)>
+
+<!ELEMENT Resumen (#PCDATA)>
+
+<!ELEMENT plazo (#PCDATA)>
+

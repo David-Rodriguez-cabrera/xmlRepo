@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Sede-central SYSTEM "clientes.dtd">
+
+<Sede-central>
+    <Sede codigo="A1234567">
+        <cliente>
+            <codigocliente>SAA-001</codigocliente>
+            <nViviendas>2</nViviendas>
+            <coste>100.000</coste>
+            <Resumen> La primera vivienda cuenta con...</Resumen>
+            <plazo> 1 mes </plazo>
+        </cliente>
+        <cliente>
+            <codigocliente>SAA-001</codigocliente>
+            <nViviendas>1</nViviendas>
+            <coste>110.000</coste>
+            <Resumen> La primera vivienda cuenta con...</Resumen>
+            <plazo> 2 semanas </plazo>
+        </cliente>
+    </Sede> 
+    <Sede codigo="B1234567">
+        <cliente>
+            <codigocliente>SBB-001</codigocliente>
+            <nViviendas>2</nViviendas>
+            <coste>100.000</coste>
+            <Resumen> La primera vivienda cuenta con...</Resumen>
+            <plazo> 1 mes </plazo>
+        </cliente>
+        <cliente>
+            <codigocliente>SBB-002</codigocliente>
+            <nViviendas>1</nViviendas>
+            <coste>110.000</coste>
+            <Resumen> La primera vivienda cuenta con...</Resumen>
+            <plazo> 2 semanas </plazo>
+        </cliente>
+    </Sede> 
+    <Sede codigo="C1234567">
+        <cliente>
+            <codigocliente>SCC-001</codigocliente>
+            <nViviendas>2</nViviendas>
+            <coste>100.000</coste>
+            <Resumen> La primera vivienda cuenta con...</Resumen>
+            <plazo> 1 mes </plazo>
+        </cliente>
+        <cliente>
+            <codigocliente>SCC-002</codigocliente>
+            <nViviendas>1</nViviendas>
+            <coste>110.000</coste>
+            <Resumen> La primera vivienda cuenta con...</Resumen>
+            <plazo> 2 semanas </plazo>
+        </cliente>
+    </Sede>
+</Sede-central>
+
+
