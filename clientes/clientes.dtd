@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!ELEMENT Sede-central (Sede)*>
 
-<!ELEMENT Sede (cliente)*>
+<!ELEMENT Sede (empleado|fecha|descripcion|cliente)*>
 <!ATTLIST Sede
     codigo CDATA #IMPLIED
   >
+
+<!ELEMENT empleado (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT descripcion (#PCDATA)>
 
 <!ELEMENT cliente (codigocliente|nViviendas|coste|Resumen|plazo)*>
 
