@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http//www.w3.org/2001/XMLSchema"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            version="0.1" xml:lang="es">
     
     <xs:element name="Almacen-Concesionario">
@@ -12,9 +12,9 @@
                             <xs:element name="marca" type="xs:string"/>
                             <xs:element name="modelo" type="xs:string"/>
                             <xs:element name="matricula" type="xs:string"/>
-                            <xs:element name="caballos" type="xs:string"/>
-                            <xs:element name="plazas" type="xs:string"/>
-                            <xs:element name="nPuertas" type="xs:string"/>
+                            <xs:element name="caballos" type="xs:integer"/>
+                            <xs:element name="plazas" type="xs:integer"/>
+                            <xs:element name="nPuertas" type="xs:integer"/>
                         </xs:sequence> 
                     </xs:complexType>
                 </xs:element>

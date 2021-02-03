@@ -3,7 +3,6 @@
 <Almacen-Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="concesionario.xsd">
 
-
     <coche>
         <codigo-coche> 1 </codigo-coche>
         <marca> Seat </marca>
@@ -12,7 +11,8 @@ xsi:noNamespaceSchemaLocation="concesionario.xsd">
         <caballos> 95 </caballos>
         <plazas> 5 </plazas>
         <nPuertas> 4 </nPuertas>
-        </coche>
+    </coche>
+    
     <coche>
         <codigo-coche> 2 </codigo-coche>
         <marca> Seat </marca>
@@ -21,7 +21,8 @@ xsi:noNamespaceSchemaLocation="concesionario.xsd">
         <caballos> 80 </caballos>
         <plazas> 5 </plazas>
         <nPuertas> 4 </nPuertas>
-        </coche>
+    </coche>
+    
     <coche>
         <codigo-coche> 3 </codigo-coche>
         <marca> Seat </marca>
@@ -30,6 +31,7 @@ xsi:noNamespaceSchemaLocation="concesionario.xsd">
         <caballos> 110 </caballos>
         <plazas> 5 </plazas>
         <nPuertas> 4 </nPuertas>
-        </coche>
+    </coche>
+    
 </Almacen-Concesionario>
         

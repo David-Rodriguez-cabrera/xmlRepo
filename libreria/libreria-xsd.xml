@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listalibros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="libreria.xsd">
+    
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> David </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Domingo </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> Castillo del nilo</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 1/10/2001</fecha-publicacion>
+            <ISBN>  1</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Paco </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Manolo </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> Campos de fresa</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 2/10/2001</fecha-publicacion>
+            <ISBN>  2</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Pablo </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Felipe </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> Quijote</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 3/10/2001</fecha-publicacion>
+            <ISBN>  3</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Juan Carlos </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Domingo </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> CID</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 4/10/2001</fecha-publicacion>
+            <ISBN>  4</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Juan José </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Raúl </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> La Celestina</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 5/10/2001</fecha-publicacion>
+            <ISBN>  5</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Pedro </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> Harry Potter</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 6/10/2001</fecha-publicacion>
+            <ISBN>  6</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Diego </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> El señor de los anillos</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 7/10/2001</fecha-publicacion>
+            <ISBN>  7</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Manuel </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Guillermo </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> El código Da Vinci</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 8/10/2001</fecha-publicacion>
+            <ISBN>  8</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Cristóbal </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Mario </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> El Alquimista</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 9/10/2001</fecha-publicacion>
+            <ISBN>  9</ISBN>
+            
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+            <apellido1> Rodriguez</apellido1>
+            <apellido2> Cabrera</apellido2>
+            <nombre> Ana </nombre>
+            </autor>
+            
+            <autor>
+            <apellido1> Sierra </apellido1>
+            <apellido2> Llucia </apellido2>
+            <nombre> Angel </nombre>
+            </autor>
+        </autores> 
+            
+            <titulo> El Diario de Ana Frank</titulo>
+            <editorial> anaya</editorial>
+            <fecha-publicacion> 10/10/2001</fecha-publicacion>
+            <ISBN>  10</ISBN>
+    </libro>
+</listalibros>
