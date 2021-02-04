@@ -8,6 +8,7 @@
                 <xs:element name="Sede" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element name="direccion" type="xs:string"/>
                             <xs:element name="empleado" type="xs:string"/>
                             <xs:element name="fecha" type="xs:string"/>
                             <xs:element name="descripcion" type="xs:string"/>
@@ -31,7 +32,7 @@
         </xs:element>
         <xs:simpleType name="codigo">
     <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Z][0-9]"/>
+      <xs:pattern value="[A-Z]{1}-[0-9]{7}"/>
     </xs:restriction>
   </xs:simpleType>
 
