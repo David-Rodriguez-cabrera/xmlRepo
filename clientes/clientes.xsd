@@ -23,10 +23,16 @@
                                     </xs:complexType>
                                 </xs:element>
                             </xs:sequence>
-                            <xs:attribute type="xs:string" name="codigo" use="optional"/>
+                            <xs:attribute type="xs:string" name="codigo" use="required"/>
                         </xs:complexType>
                     </xs:element>
                 </xs:sequence>             
             </xs:complexType>
         </xs:element>
+        <xs:simpleType name="codigo">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
     </xs:schema>
