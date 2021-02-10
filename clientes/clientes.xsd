@@ -9,7 +9,7 @@
     </xsd:complexType>
     <xsd:complexType name="SedeDatos">
         <xsd:sequence>
-            <xsd:element name="direccion" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="direccion" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
             <xsd:element name="empleado" type="xsd:string" />
             <xsd:element name="fecha" type="xsd:date" />
             <xsd:element name="descripcion" type="xsd:string" minOccurs="0" />
