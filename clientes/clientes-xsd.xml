@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Sede-central xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="concesionario.xsd">
+xsi:noNamespaceSchemaLocation="clientes.xsd">
 
     <Sede codigo="A1234567">
         <direccion>Calla Paco Numero 10</direccion>
         <empleado>Paco</empleado>
-        <fecha>2/2/2002</fecha>
+        <fecha>2002-02-02</fecha>
         <descripcion>Descripcion</descripcion>
         <cliente codigo="SAA-001">
             
@@ -24,7 +24,7 @@ xsi:noNamespaceSchemaLocation="concesionario.xsd">
     <Sede codigo="B1234567">
         <direccion>Calla Manolo Numero 10</direccion>
         <empleado>Paco</empleado>
-        <fecha>2/2/2002</fecha>
+        <fecha>2002-02-02</fecha>
         <descripcion>Descripcion</descripcion>
         <cliente codigo="SBB-001">
             
@@ -44,7 +44,7 @@ xsi:noNamespaceSchemaLocation="concesionario.xsd">
     <Sede codigo="C1234567">
         <direccion>Calla Pepe Numero 10</direccion>
         <empleado>Paco</empleado>
-        <fecha>2/2/2002</fecha>
+        <fecha>2002-02-02</fecha>
         <descripcion>Descripcion</descripcion>
         <cliente codigo="SCC-001">
             
